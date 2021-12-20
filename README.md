@@ -12,6 +12,13 @@ You can download our environmental setup at Environment Folder and use the follo
 ```js
 conda env create -f environment.yml
 ```
+### Steps ###
+1. Please follow each steps to run the code. 
+2. The first stage is extracting embedding features (01_Extract_Latent_Representation.py), and followed by the K-Means training (02_K_Mean_Clustering_Training.py) and testing (03_K_Mean_Clustering_Testing.py) stage.
+3. For developing the Quality-Net model, please kindly refer to <a href="https://github.com/JasonSWFu/Quality-Net" target="Quality-Net">Quality-Net</a>
+4. For the speech enhancement model, you can use any model architecture. In our implementation, we used masking based CNN as our model architecture.
+5. To get ZMOS-QS results, please use 04_ZMOS_QS.py
+6. To get ZMOS-QE results, please use 05_ZMOS_QE.py
 
 ### Citation ###
 
